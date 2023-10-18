@@ -4,8 +4,8 @@ const Map = () => {
   return (
     <div className=" mx-auto justify-center ">
       <div className="relative">
-        <div className="container flex items-center gap-16  mx-auto  pb-4 ">
-          <div className=" w-full px-4 ">
+        <div className="container flex md:flex-row flex-col items-center gap-16  pb-4 ">
+          <div className=" w-full md:px-4 px-2 ">
             <iframe
               className=" "
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9306445522857!2d-73.98160272504131!3d40.763550134459784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f9c69e166d%3A0x86b0e5488151ce61!2sestiatorio%20Milos!5e0!3m2!1sen!2sid!4v1690503267127!5m2!1sen!2sid"

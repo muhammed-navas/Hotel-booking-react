@@ -3,11 +3,11 @@ import React from 'react'
 function RoomBook() {
   return (
     <div>
-        <div className='flex  bg-green-200 items-center justify-center'>
-        <div className=' pl-6 w-3/4 m-4'>
+        <div className='flex md:flex-row flex-col  bg-green-200 items-center justify-center'>
+        <div className=' md:pl-6 p-0 w-3/4 m-4'>
             <h1 className='text-xl mb-4'>ENJOY THE GAME _____</h1>
             <h1 className='text-5xl mb-4 '>Beach Voleyball</h1>
-            <p className='w-1/2 mb-8'>Beach volleyball is ouy visitors favourite sport, highly enjoyable for everyone young or old. Just gather your team on the beach and find the opponents in a matter of minutes. And show what you can do, be a winner!</p>
+            <p className='md:w-1/2 w-full mb-8'>Beach volleyball is ouy visitors favourite sport, highly enjoyable for everyone young or old. Just gather your team on the beach and find the opponents in a matter of minutes. And show what you can do, be a winner!</p>
             <button className='boreder bg-red-800 py-1 px-3 text-white'>Read More</button>
         </div>
         <div className='grid grid-cols-2 gap-6 m-10' >

@@ -33,8 +33,8 @@ function Testimonial() {
     setTimeout(() => {
       setCurrentTestimonial((currentTestimonial + 1) % testimonials.length);
       setVisible(true);
-      setAnimation(''); // Reset the animation
-    }, 1000); // Adjust the delay (in milliseconds) as needed for your desired animation speed.
+      setAnimation(''); 
+    }, 1000); 
   };
 
   const prevTestimonial = () => {
@@ -47,14 +47,14 @@ function Testimonial() {
           : currentTestimonial - 1
       );
       setVisible(true);
-      setAnimation(''); // Reset the animation
-    }, 1000); // Adjust the delay (in milliseconds) as needed for your desired animation speed.
+      setAnimation(''); 
+    }, 1000); 
   };
 
   return (
-    <div className="relative">
+    <div className="relative md:mb-10">
       <section className="bg-white dark:bg-gray-900 ">
-        <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+        <div className="max-w-screen-xl px-4 py-10 mx-auto text-center lg:py-16 lg:px-6">
           <figure
             className={`max-w-screen-md mx-auto relative transition-opacity ${animation} ${
               visible ? 'opacity-100' : 'opacity-0'
@@ -90,9 +90,9 @@ function Testimonial() {
               </div>
             </figcaption>
           </figure>
-          <div className="absolute md:top-1/2 top-3/4 -mt-4 left-2">
+          <div className="absolute md:top-1/2 bottom-0  left-72 md:left-20">
             <button
-              className="text-gray-400 dark:text-gray-600 border rounded-full hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none"
+              className="text-gray-400 dark:text-gray-600 border border-black border-2 rounded-full hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none"
               onClick={prevTestimonial}
             >
               <svg
@@ -111,9 +111,9 @@ function Testimonial() {
               </svg>
             </button>
           </div>
-          <div className="absolute md:top-1/2 top-3/4 -mt-4 right-2">
+          <div className="absolute md:top-1/2 bottom-0  right-8 md:right-20">
             <button
-              className="text-gray-400 dark:text-gray-600 border rounded-full hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none"
+              className="text-gray-400 dark:text-gray-600 border border-black  border-2  rounded-full hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none"
               onClick={nextTestimonial}
             >
               <svg

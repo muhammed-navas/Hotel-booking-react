@@ -22,17 +22,18 @@ function Hotels() {
   };
   
   return (
-    <div className=' p-10'>
-        <div className='flex justify-center '>
+    <div className='md:p-6 p-2 leading-loose'>
+        <div className='flex justify-center md:flex-row flex-col '>
             <div>
                 <h1 className='text-5xl mb-6'>Hotels</h1>
-                <p className='w-3/4 mb-6'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero necessitatibus culpa quia dignissimos, obcaecati cumque blanditiis debitis non cum expedita?  obcaecati cumque blanditiis debitis non cum expedita? obcaecati cumque blanditiis debitis non cum expedita? obcaecati cumque blanditiis debitis non cum expedita? obcaecati cumque blanditiis </p>
-                <button className='boreder bg-red-800 py-1 px-3 text-white'>Read More</button>
+                <div className="border-t-4 border-solid mb-10  border-green-800 w-40"></div>
+                <p className='w-full  mb-6'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero necessitatibus culpa quia dignissimos, obcaecati cumque blanditiis debitis non cum expedita?  obcaecati cumque blanditiis debitis non cum expedita? obcaecati cumque blanditiis debitis non cum expedita? obcaecati cumque blanditiis debitis non cum expedita? obcaecati cumque blanditiis </p>
+                <button className='boreder bg-red-800 py-1 px-3 text-white mb-6 md:mb-0'>Read More</button>
             </div>
             <div>
             <main className=" w-full place-content-start ">
       <div className="relative mx-auto  overflow-hidden   ">
-        <button onClick={previous} className="absolute left-5 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-gray-100 shadow-md">
+        <button onClick={previous} className="absolute right-20 bottom-3 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-gray-100 shadow-md">
         <svg
                 className="w-10 h-10"
                 fill="none"
@@ -49,7 +50,7 @@ function Hotels() {
               </svg>
         </button>
 
-        <button onClick={forward} className="absolute right-5 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-gray-100 shadow-md">
+        <button onClick={forward} className="absolute right-5 bottom-3 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-gray-100 shadow-md">
         <svg
                 className="w-10 h-10"
                 fill="none"

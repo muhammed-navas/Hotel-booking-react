@@ -90,26 +90,26 @@ function Navbar() {
       {isOpen && (
         <div className="sm:hidden">
           <ul className="mt-2 space-y-2">
-            <li>
+          <Link to='/'> <li>
               <a href="#" className="text-gray-800 hover:text-gray-500">
                 Home
               </a>
-            </li>
-            <li>
+            </li></Link> 
+            <Link to='/rooms'><li>
               <a href="#" className="text-gray-800 hover:text-gray-500">
                 Rooms
               </a>
-            </li>
-            <li>
+            </li></Link> 
+            <Link to='/activities'><li>
               <a href="#" className="text-gray-800 hover:text-gray-500">
                 Activities
               </a>
-            </li>
-            <li>
+            </li></Link> 
+            <Link to='/contact'><li>
               <a href="#" className="text-gray-800 hover:text-gray-500">
                 Contact
               </a>
-            </li>
+            </li></Link> 
           </ul>
         </div>
       )}
