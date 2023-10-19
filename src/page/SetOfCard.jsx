@@ -4,7 +4,7 @@ import Cards from '../homeComponent/Cards'
 function SetOfCard() {
   return (
 
-    <div className='leading-loose'>
+    <div className='leading-loose mt-20'>
       <div className='ml-5 '>
       <h1 className='md:text-5xl font-medium mb-4 text-4xl '>Rooms & Suites</h1>
       <div className='border-t-4 border-solid mb-10  border-green-800 w-40'></div>

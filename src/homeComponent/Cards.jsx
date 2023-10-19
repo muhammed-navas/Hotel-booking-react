@@ -6,7 +6,7 @@ function Cards() {
     <div className="">
       <div className="m-4">
         <div class="max-w-sm rounded overflow-hidden ">
-          <div className="group relative ">
+          <div className="group relative cursor-pointer  ">
             <img
               class="z-[1] "
               src="https://cdn.pixabay.com/photo/2018/08/06/19/49/design-3588214_1280.jpg"

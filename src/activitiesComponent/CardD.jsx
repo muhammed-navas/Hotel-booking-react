@@ -5,7 +5,7 @@ function CardD() {
     <>
     <div className='flex md:flex-row flex-col bg-green-200 p-6 gap-6 md:p-0 md:gap-0 items-center justify-center'>
         <div>
-            <img className='md:w-[105rem] w-full md:h-[30rem]' src="https://cdn.pixabay.com/photo/2017/07/30/20/40/beach-2555568_1280.jpg" alt="" />
+            <img className='md:w-[117rem] w-full md:h-[30rem]' src="https://cdn.pixabay.com/photo/2017/07/30/20/40/beach-2555568_1280.jpg" alt="" />
         </div>
         <div className=' p-0 md:pl-16'>
             <h1 className='text-xl mb-4'>ENJOY THE GAME _____</h1>
@@ -16,7 +16,7 @@ function CardD() {
     </div>
     <div className='flex md:flex-row-reverse md:p-0 md:gap-0  flex-col p-6 gap-6 bg-green-200 items-center justify-center'>
         <div>
-            <img className='md:w-[107rem] w-full md:h-[30rem]' src="https://cdn.pixabay.com/photo/2013/08/17/14/28/cowboy-173389_1280.jpg" alt="" />
+            <img className='md:w-[116rem] w-full md:h-[30rem]' src="https://cdn.pixabay.com/photo/2013/08/17/14/28/cowboy-173389_1280.jpg" alt="" />
         </div>
         <div className='p-0 md:pl-16'>
             <h1 className='text-xl mb-4'>ENJOY THE GAME _____</h1>

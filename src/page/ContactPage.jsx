@@ -6,7 +6,7 @@ import Follow from '../homeComponent/Follow'
 
 function ContactPage() {
   return (
-    <div className='p-4 md:p-10'>
+    <div className='p-2 md:p-0'>
         <Contact />
         <ContactForm />
         <Map />

@@ -4,9 +4,9 @@ import Cards from '../homeComponent/Cards'
 
 function RoomsCards() {
   return (
-    <div>
+    <div className=''>
         <SetOfCard />
-        <div className='flex md:flex-row flex-col '>
+        <div className='flex md:flex-row flex-col  '>
         <Cards />
         <Cards />
         <Cards />

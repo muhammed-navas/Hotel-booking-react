@@ -3,7 +3,7 @@ import React from "react";
 function Activities() {
   return (
     <div className="leading-loose md:mb-10">
-      <div className="w-full bg-gray-200 p-6 md:mt-10 ">
+      <div className="w-ful bg-gray-200 p-6 md:mt-10 ">
         <h1 className="text-5xl font-medium mb-6 md:pt-20">Activities</h1>
         <div className="border-t-4 border-solid mb-10  border-green-800 w-40"></div>
         <p className="mb-6 md:w-3/4 w-full  ">

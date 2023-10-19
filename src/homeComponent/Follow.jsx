@@ -3,7 +3,7 @@ import React from 'react'
 function Follow() {
   return (
     <div>
-        <div className='text-center mt-6 py-10 border-t border-gray-900 my-border-top '>
+        <div className='text-center mt-20 py-20   border-t border-gray-900 my-border-top '>
             <h1 className='mb-7 text-5xl'>Follows Us</h1>
             <p className='mb-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, similique.</p>
             <div class="flex  space-x-6 justify-center sm:mt-0">
