@@ -12,7 +12,7 @@ import Footer from "../homeComponent/Footer";
 
 function HomePage() {
   return (
-    <div>
+    <div >
       {/* <Navbar /> */}
       <Home />
       <Inputs />

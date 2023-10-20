@@ -1,120 +1,84 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
 
-function Navbar() {
+import { Link } from "react-router-dom";
+
+
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [service, setService] = useState(false);
+  const [menu, setMenu] = useState("hidden");
 
-  const toggleNavbar = () => {
+  function clickHandle() {
+    if (menu === "hidden") {
+      setMenu("h-[30rem]");
+    } else {
+      setMenu("hidden");
+    }
     setIsOpen(!isOpen);
-  };
+  }
 
   return (
-    <div>
-      {/* Mobile menu button */}
-      <div className="block sm:hidden">
-        <button
-          className="flex items-center px-3 py-2 border rounded text-gray-800 border-gray-800"
-          onClick={toggleNavbar}
-        >
-          <svg
-            className="w-3 h-3 fill-current"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
+    <nav className="p-4 shadow-sm">
+      <div className="container">
+        <div className="">
+          <div className="flex items-center justify-between ">
+            {/* <Link to="/">
+              <img src={logo} className="h-16 mr-16" alt="cloud-whize logo" />
+            </Link>
+          </div> */}
+          <h1 className="uppercase">hotel website</h1>
+          <div className="md:hidden">
+            <button
+              onClick={clickHandle}
+              className="text-white hover:text-gray-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="black"
+                className="h-6 w-6"
+              >
+                {isOpen ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                ) : (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                )}
+              </svg>
+            </button>
+          </div>
+          <div 
+            className={`${menu} md:inline-flex md:ml-[13rem] top-[62px] md:mt-0 md:bg-white w-[20rem] md:w-full left-0 md:left-0 bg-green-100 absolute md:static md:flex-row flex-col flex space-x-4 gap-8 animation-element animate z-[9] `}
           >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
-      </div>
-
-      {/* Desktop menu */}
-      <nav className="hidden sm:block  flex items-center py-3 px-10 shadow-lg ">
-        <div className='flex justify-between'>
-        <ul className="flex space-x-4 gap-10 ">
-        <Link to='/'><li>
-           <a href="#" className="text-gray-800 font-medium text-lg hover:text-gray-500">
-              HOTEL-BOOKING-APP
-            </a>
-          </li></Link> 
-          <Link to='/' ><li>
-            <a href="#" className="text-gray-800 font-medium text-lg hover:text-gray-500">
+            <Link to="/" className="ml-4 md:ml-0 mt-4 md:mt-0 hover:text-gray-300">
               Home
-            </a>
-          </li></Link>
-         <Link to='/rooms'> <li>
-            <a href="#" className="text-gray-800 font-medium text-lg hover:text-gray-500">
+            </Link>
+            <Link to="/rooms" className="hover:text-gray-300">
               Rooms
-            </a>
-          </li></Link>
-        <Link to='activities'> <li>
-            <a href="#" className="text-gray-800 font-medium text-lg hover:text-gray-500">
-              Activities
-            </a>
-          </li></Link> 
-         <Link to='/contact'> <li>
-            <a href="#" className="text-gray-800 font-medium text-lg hover:text-gray-500">
-              Contact
-            </a>
-          </li></Link>
-        </ul>
-        <div>
-
-        <div class="relative">
-              <span class="absolute inset-y-0 left-0 flex items-center pl-2">
-                <button type="submit" class="p-1 focus:outline-none">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    class="w-4 h-4"
-                  >
-                    <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                  </svg>
-                </button>
-              </span>
-              <input
-                type="search"
-                name="search"
-                class="px-4 py-1 pl-12 rounded shadow outline-none"
-                placeholder="Search Items..."
-              />
-            </div>
+            </Link>
+            <Link to="/activities" className="hover:text-gray-300">Activities</Link>
+            
+            
+            <Link to="/contact" className="hover:text-gray-300">
+              Contact 
+            </Link>
+            
+          </div>
         </div>
-        </div>
-      </nav>
-
-      {/* Mobile menu */}
-      {isOpen && (
-        <div className="sm:hidden">
-          <ul className="mt-2 space-y-2">
-          <Link to='/'> <li>
-              <a href="#" className="text-gray-800 hover:text-gray-500">
-                Home
-              </a>
-            </li></Link> 
-            <Link to='/rooms'><li>
-              <a href="#" className="text-gray-800 hover:text-gray-500">
-                Rooms
-              </a>
-            </li></Link> 
-            <Link to='/activities'><li>
-              <a href="#" className="text-gray-800 hover:text-gray-500">
-                Activities
-              </a>
-            </li></Link> 
-            <Link to='/contact'><li>
-              <a href="#" className="text-gray-800 hover:text-gray-500">
-                Contact
-              </a>
-            </li></Link> 
-          </ul>
-        </div>
-      )}
-    </div>
+      </div>
+      </div>
+    </nav>
   );
-}
+};
 
 export default Navbar;

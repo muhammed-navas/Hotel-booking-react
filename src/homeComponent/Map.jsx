@@ -20,7 +20,7 @@ const Map = () => {
 
           <div class="  flex flex-col gap-6 ">
           <div className='flex  items-center gap-6'>
-            <span class="inline-block p-5 text-gray-600 rounded-full bg-yellow-400">
+            <span class="inline-block p-5 text-gray-300 rounded-full bg-red-800">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -35,7 +35,7 @@ const Map = () => {
           </div>
 
           <div className='flex  items-center gap-6'>
-            <span class="inline-block p-5 text-gray-600 rounded-full bg-yellow-400">
+            <span class="inline-block p-5 text-gray-300 rounded-full bg-red-800">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -52,7 +52,7 @@ const Map = () => {
 
           <div className='flex  items-center gap-6'>
 
-            <span class="inline-block p-5 text-gray-600 rounded-full bg-yellow-400">
+            <span class="inline-block p-5 text-gray-300 rounded-full bg-red-800">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round"
