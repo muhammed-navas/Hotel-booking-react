@@ -6,7 +6,7 @@ function RoomsCards() {
   return (
     <div className=''>
         <SetOfCard />
-        <div className='flex md:flex-row flex-col px-10  '>
+        <div className='flex md:flex-row flex-col   '>
         <Cards />
         <Cards />
         <Cards />

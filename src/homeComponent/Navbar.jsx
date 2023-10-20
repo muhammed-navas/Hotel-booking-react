@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [service, setService] = useState(false);
   const [menu, setMenu] = useState("hidden");
 
   function clickHandle() {
@@ -18,15 +17,15 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="p-4 shadow-sm">
-      <div className="container">
+    <nav className="p-4 md:p-5 shadow-sm">
+      <div className="">
         <div className="">
-          <div className="flex items-center justify-between ">
+          <div className="flex items-center  justify-between mx-w-6xl mx-auto ">
             {/* <Link to="/">
               <img src={logo} className="h-16 mr-16" alt="cloud-whize logo" />
             </Link>
           </div> */}
-          <h1 className="uppercase">hotel website</h1>
+          <h1 className="uppercase text-2xl w-full md:ml-16">hotel website</h1>
           <div className="md:hidden">
             <button
               onClick={clickHandle}
@@ -58,21 +57,20 @@ const Navbar = () => {
             </button>
           </div>
           <div 
-            className={`${menu} md:inline-flex md:ml-[13rem] top-[62px] md:mt-0 md:bg-white w-[20rem] md:w-full left-0 md:left-0 bg-green-100 absolute md:static md:flex-row flex-col flex space-x-4 gap-8 animation-element animate z-[9] `}
+            className={`${menu} md:inline-flex  top-[63px] md:mt-0 md:bg-white w-[20rem] md:w-full left-0 md:left-0 bg-white absolute md:static md:flex-row flex-col flex space-x-4 gap-8 animation-element animate  z-[9] text-red-900 `}
           >
-            <Link to="/" className="ml-4 md:ml-0 mt-4 md:mt-0 hover:text-gray-300">
+            <Link to="/" className="ml-4 md:ml-0 mt-4 md:mt-0 font-lato text-lg hover:underline font-medium">
               Home
             </Link>
-            <Link to="/rooms" className="hover:text-gray-300">
+            <Link to="/rooms" className="hover:underline font-lato text-lg font-medium">
               Rooms
             </Link>
-            <Link to="/activities" className="hover:text-gray-300">Activities</Link>
-            
-            
-            <Link to="/contact" className="hover:text-gray-300">
+            <Link to="/activities" className="hover:underline font-lato text-lg font-medium">Activities</Link>
+            <Link to="/contact" className="hover:underline font-lato text-lg font-medium">
               Contact 
             </Link>
             
+         
           </div>
         </div>
       </div>

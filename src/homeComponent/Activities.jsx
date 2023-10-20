@@ -14,7 +14,7 @@ function Activities() {
           neque mollitia reiciendis officiis
         </p>
       </div>
-      <div className="flex grid md:grid-cols-4 cursor-pointer  grid-cols-1 p-1 md:p-0 ">
+      <div className=" grid md:grid-cols-4 cursor-pointer  grid-cols-1 p-1 md:p-0 ">
 
         <div className="group relative ">
         <div
@@ -23,12 +23,12 @@ function Activities() {
         className="h-72 w-full   bg-center bg-cover duration-500 relative "
       >
         <div className="absolute bottom-6 left-4 flex flex-col justify-end group-hover:opacity-0 opacity-100 duration-700 text-white ">
-<h1 className="text-xs font-medium uppercase">enjoy the game ___</h1>
+<h1 className=" font-lato font-bold text-sm uppercase">enjoy the game ---</h1>
             <h1 className=" text-xl font-medium">enjoy volleyball</h1>
         </div>
           <div class="absolute bottom-0 p-4 left-0 w-full h-0 flex flex-col  bg-red-800 opacity-0 group-hover:h-full group-hover:opacity-90 duration-700">
-            <h1 className="text-white text-sm font-medium uppercase">
-              enjoy the game ___
+            <h1 className="text-white font-lato font-bold text-sm  uppercase">
+              enjoy the game ---
             </h1>
             <h1 className="text-white text-2xl font-medium">
               enjoy volleyball
@@ -50,12 +50,12 @@ function Activities() {
         className="h-72 w-full   bg-center bg-cover duration-500 relative "
       >
         <div className="absolute bottom-6 left-4 flex flex-col justify-end group-hover:opacity-0 opacity-100 duration-700 text-white ">
-<h1 className="text-xs font-medium uppercase">enjoy the sea ___</h1>
+<h1 className="font-lato font-bold text-sm uppercase">enjoy the sea ---</h1>
             <h1 className=" text-xl font-medium">enjoy waterskiing</h1>
         </div>
           <div class="absolute bottom-0 p-4 left-0 w-full h-0 flex flex-col  bg-red-800 opacity-0 group-hover:h-full group-hover:opacity-90 duration-700">
-            <h1 className="text-white text-sm font-medium uppercase">
-            enjoy the sea ___
+            <h1 className="text-white font-lato font-bold text-sm uppercase">
+            enjoy the sea ---
             </h1>
             <h1 className="text-white text-2xl font-medium">
               enjoy waterskiing
@@ -77,12 +77,12 @@ function Activities() {
         className="h-72 w-full   bg-center bg-cover duration-500 relative "
       >
         <div className="absolute bottom-6 left-4 flex flex-col justify-end group-hover:opacity-0 opacity-100 duration-700 text-white ">
-<h1 className="text-xs font-medium uppercase">enjoy the beach ___</h1>
+<h1 className="font-lato font-bold text-sm uppercase">enjoy the beach ---</h1>
             <h1 className=" text-xl font-medium">enjoy football playing</h1>
         </div>
           <div class="absolute bottom-0 p-4 left-0 w-full h-0 flex flex-col  bg-red-800 opacity-0 group-hover:h-full group-hover:opacity-90 duration-700">
-            <h1 className="text-white text-sm font-medium uppercase">
-            enjoy the beach ___
+            <h1 className="text-white font-lato font-bold text-sm uppercase">
+            enjoy the beach ---
             </h1>
             <h1 className="text-white text-2xl font-medium">
               enjoy football playing
@@ -104,12 +104,12 @@ function Activities() {
         className="h-72 w-full   bg-center bg-cover duration-500 relative "
       >
         <div className="absolute bottom-6 left-4 flex flex-col justify-end group-hover:opacity-0 opacity-100 duration-700 text-white ">
-<h1 className="text-xs font-medium uppercase">enjoy the sky ___</h1>
+<h1 className="font-lato font-bold text-sm uppercase">enjoy the sky ---</h1>
             <h1 className=" text-xl font-medium">enjoy paragliding</h1>
         </div>
           <div class="absolute bottom-0 p-4 left-0 w-full h-0 flex flex-col  bg-red-800 opacity-0 group-hover:h-full group-hover:opacity-90 duration-700">
-            <h1 className="text-white text-sm font-medium uppercase">
-              enjoy the sky ___
+            <h1 className="text-white font-lato font-bold text-sm uppercase">
+              enjoy the sky ---
             </h1>
             <h1 className="text-white text-2xl font-medium">
               enjoy paragliding

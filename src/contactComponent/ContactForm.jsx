@@ -3,12 +3,12 @@ import React from 'react'
 function ContactForm() {
   return (
     <div>
-        <section class=" mb-6 dark:bg-gray-900">
+        <section class=" mb-6 mt-10 md:mt-0 dark:bg-gray-900">
   <div class="flex md:p-10 p-3 md:flex-row flex-col md:items-center">
     <div className='md:w-1/3 w-full '>
-        <h1 className='text-sm uppercase mb-3'>CONTACT ----</h1>
+        <h1 className='font-lato font-bold text-xs uppercase mb-3'>CONTACT ----</h1>
         <h1 className='text-2xl mb-6'>Hotel California</h1>
-      <p class="mb-8 lg:mb-6 font-light  text-gray-500 dark:text-gray-400 sm:text-xl w-3/4">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan?</p>
+      <p class="mb-8 lg:mb-6     w-3/4">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan?</p>
     </div>
       <form action="#" class="space-y-8">
           <div>
@@ -23,7 +23,7 @@ function ContactForm() {
               <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
               <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50  shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
           </div>
-          <button className='boreder bg-red-800 py-1 px-3 hover:bg-gray-100 border-2 border-red-800 duration-700 hover:text-black text-white mb-6 md:mb-0'>Send massage</button>
+          <button className='font-lato font-bold text-sm bg-red-800 py-2 px-3 hover:bg-gray-100 border-2 border-red-800 w-full duration-700 hover:text-black text-white mb-6 md:mb-0'>Send massage</button>
       </form>
   </div>
 </section>

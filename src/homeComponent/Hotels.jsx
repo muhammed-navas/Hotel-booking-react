@@ -22,13 +22,14 @@ function Hotels() {
   };
   
   return (
-    <div className='md:pl-16 p-2  leading-loose'>
+    <div className='md:pl-16 p-2 pt-10 md:pt-0 leading-loose'>
         <div className='flex justify-center md:flex-row flex-col '>
-            <div className=''>
-                <h1 className='text-5xl mb-6'>Hotels</h1>
+            <div className='pl-3 md:pl-0'>
+                <h1 className='uppercase font-lato font-bold text-sm mb-4'>IN A NUTSHELL---</h1>
+                <h1 className='text-5xl mb-6 font-medium'>Hotels</h1>
                 <div className="border-t-4 border-solid mb-10  border-green-800 w-40"></div>
                 <p className='w-3/4  mb-6'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero necessitatibus culpa quia dignissimos, obcaecati cumque blanditiis debitis obcaecati  </p>
-                <button className='boreder bg-red-800 py-1 px-3 hover:bg-gray-100 border-2 border-red-800 duration-700 hover:text-black text-white mb-6 md:mb-0'>Read More</button>
+                <button className='font-lato font-bold text-sm bg-red-800 py-2 px-3 hover:bg-gray-100 border-2 border-red-800 duration-700 hover:text-black text-white mb-6 md:mb-0'>Read More</button>
             </div>
             <div>
             <main className=" w-full place-content-start ">

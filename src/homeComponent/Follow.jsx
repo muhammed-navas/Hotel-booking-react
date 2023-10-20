@@ -4,7 +4,7 @@ function Follow() {
   return (
     <div>
         <div className='text-center mt-20 py-20 md:p-20 p-6  border-t border-gray-900 my-border-top '>
-            <h1 className='mb-7 text-5xl font-bold'>Follows Us</h1>
+            <h1 className='mb-7 text-5xl font-medium'>Follows Us</h1>
             <p className='mb-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, similique.</p>
             <div class="flex  space-x-6 justify-center sm:mt-0">
 				<a href="#" class="text-gray-500 hover:text-red-900 duration-700 dark:hover:text-black">

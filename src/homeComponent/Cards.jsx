@@ -17,7 +17,7 @@ function Cards() {
             </div>
           </div>
           <div class=" px-1 py-4 ">
-            <h1 className="mb-2">EXECUTIVE ------</h1>
+            <h1 className="mb-2 font-lato font-bold text-sm">EXECUTIVE------</h1>
             <div class="font-bold text-xl mb-6">The Coldest Sunset</div>
             <p class="text-gray-700 text-base leading-loose">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -26,7 +26,7 @@ function Cards() {
             </p>
           </div>
           <div class="px-1 pt-1 pb-2">
-            <span class="cursor-pointer border-2 border-red-800 hover:bg-gray-100 duration-700 hover:text-black w-full md:w-20 inline-block bg-red-800 px-3 py-2 text-sm font-semibold text-gray-300 mr-2 mb-2">
+            <span class="cursor-pointer text-center  border-2 border-red-800 hover:bg-gray-100 duration-700 hover:text-black w-full md:w-20 inline-block bg-red-800 px-3 py-2 text-sm text-white mr-2 mb-2 font-lato font-bold ">
               Details
             </span>
            

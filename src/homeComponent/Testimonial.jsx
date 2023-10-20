@@ -84,7 +84,7 @@ function Testimonial() {
                 <div className="pr-3 font-medium text-gray-900 dark:text-white">
                   {testimonials[currentTestimonial].author}
                 </div>
-                <div className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
+                <div className="pl-3 text-sm font-lato font-bold  text-gray-500 dark:text-gray-400">
                   {testimonials[currentTestimonial].position}
                 </div>
               </div>
