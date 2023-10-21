@@ -1,12 +1,12 @@
 import React from "react";
 import HomePage from "./page/HomePage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
 import Navbar from "./homeComponent/Navbar";
 import Footer from "./homeComponent/Footer";
 import ActivitiesPage from "./page/ActivitiesPage";
 import ContactPage from "./page/ContactPage";
 import RoomPage from "./page/RoomPage";
+import "./App.css";
 
 function App() {
   return (

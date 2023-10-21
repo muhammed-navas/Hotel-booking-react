@@ -10,6 +10,9 @@ export default {
       fontFamily: {
         lato: ['Lato', 'sans'],
       },
+      paddingLeft: {
+        paddingL:['30rem']
+      },
     },
   },
   plugins: [require('flowbite/plugin')],

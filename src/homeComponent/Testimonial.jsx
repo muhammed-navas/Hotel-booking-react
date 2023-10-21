@@ -90,9 +90,9 @@ function Testimonial() {
               </div>
             </figcaption>
           </figure>
-          <div className="absolute md:top-1/2 bottom-0  left-72 md:left-20">
+          <div className="absolute md:top-1/2 bottom-0  left-[65%] md:left-20">
             <button
-              className="text-gray-400 dark:text-gray-600 border border-black border-2 rounded-full hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none"
+              className="text-gray-400 dark:text-gray-600  border-black border-2 rounded-full hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none"
               onClick={prevTestimonial}
             >
               <svg
@@ -111,9 +111,9 @@ function Testimonial() {
               </svg>
             </button>
           </div>
-          <div className="absolute md:top-1/2 bottom-0  right-8 md:right-20">
+          <div className="absolute md:top-1/2 bottom-0  right-[9%] md:right-20">
             <button
-              className="text-gray-400 dark:text-gray-600 border border-black  border-2  rounded-full hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none"
+              className="text-gray-400 dark:text-gray-600  border-black  border-2  rounded-full hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none"
               onClick={nextTestimonial}
             >
               <svg

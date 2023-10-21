@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../homeComponent/Navbar";
 import Inputs from "../homeComponent/Inputs";
 import SetOfCard from "./SetOfCard";
 import Home from "../homeComponent/Home";
@@ -8,12 +7,11 @@ import Testimonial from "../homeComponent/Testimonial";
 import Hotels from "../homeComponent/Hotels";
 import Map from "../homeComponent/Map";
 import Follow from "../homeComponent/Follow";
-import Footer from "../homeComponent/Footer";
+
 
 function HomePage() {
   return (
-    <div >
-      {/* <Navbar /> */}
+    <div  >
       <Home />
       <Inputs />
       <SetOfCard />
@@ -22,7 +20,6 @@ function HomePage() {
       <Hotels />
       <Map />
       <Follow />
-      {/* <Footer /> */}
     </div>
   );
 }

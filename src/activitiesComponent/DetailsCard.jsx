@@ -9,7 +9,7 @@ function DetailsCard() {
             <h1 className='text-5xl mb-7 font-medium '>Activities</h1>
             <p className='mb-10 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente fuga excepturi ea quasi aliquid praesentium maxime libero vitae veniam.Quam sapiente fuga excepturi ea quasi aliquid praesentium maxime libero vitae veniam.</p>
         </div>
-        <div className=''>
+        <div className='md:p-4'>
 
         <CardD />
         <CardD  />

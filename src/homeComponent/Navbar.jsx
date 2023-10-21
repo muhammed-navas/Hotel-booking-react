@@ -9,7 +9,7 @@ const Navbar = () => {
 
   function clickHandle() {
     if (menu === "hidden") {
-      setMenu("h-[30rem]");
+      setMenu("h-screen ");
     } else {
       setMenu("hidden");
     }

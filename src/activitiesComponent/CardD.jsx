@@ -3,7 +3,7 @@ import React from 'react'
 function CardD() {
   return (
     <>
-    <div className='flex md:flex-row flex-col bg-green-200 p-6 gap-6 md:p-0 md:gap-0 items-center justify-center'>
+    <div className='flex md:flex-row flex-col bg-green-200 p-6 gap-6  md:p-0 md:gap-0 items-center justify-center'>
         <div>
             <img className='md:w-[117rem] w-full md:h-[30rem]' src="https://cdn.pixabay.com/photo/2017/07/30/20/40/beach-2555568_1280.jpg" alt="" />
         </div>

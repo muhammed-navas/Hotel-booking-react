@@ -75,7 +75,7 @@ function App() {
         }}
         className="w-full md:h-[90vh] h-4/5  bg-center bg-cover duration-500 "
       >
-        <div className="flex flex-col  p-4 md:p-10  md:pt-20 ">
+        <div className="flex flex-col md:pl-16 p-4 md:p-10  md:pt-20 ">
           <div>
             <h1 className="md:text-5xl text-3xl pt-6 md:pt-0 font-medium text-white md:w-1/2 mb-3 md:mb-6">
               {slides[currentIndex].title}

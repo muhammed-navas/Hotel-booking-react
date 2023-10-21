@@ -4,7 +4,7 @@ import Svg from "../moreComponent/Svg";
 function Cards() {
   return (
     <div className="">
-      <div className="m-4">
+      <div className="m-2">
         <div class="max-w-sm rounded overflow-hidden ">
           <div className="group relative cursor-pointer  ">
             <img
