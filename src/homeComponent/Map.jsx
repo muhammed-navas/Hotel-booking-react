@@ -2,9 +2,9 @@ import React from 'react';
 
 const Map = () => {
   return (
-    <div className=" mx-auto justify-center ">
+    <div className=" mx-auto ">
       <div className="relative">
-        <div className="container flex md:flex-row flex-col items-center gap-16  pb-4 ">
+        <div className="container flex md:flex-row flex-col xl:mx-auto items-center gap-16  pb-4 ">
           <div className=" w-full md:px-4 px-2 ">
             <iframe
               className=" "

@@ -7,6 +7,7 @@ import ActivitiesPage from "./page/ActivitiesPage";
 import ContactPage from "./page/ContactPage";
 import RoomPage from "./page/RoomPage";
 import "./App.css";
+import Sample from "./sampleF";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/rooms" element={<RoomPage />} />
         </Routes>
         <Footer />
+        {/* <Sample /> */}
       </BrowserRouter>
     </>
   );

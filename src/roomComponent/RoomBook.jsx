@@ -3,8 +3,8 @@ import React from 'react'
 function RoomBook() {
   return (
     <div className='md:mt-10'>
-        <div className='flex md:flex-row flex-col md:p-20 md:pl-4 p-1 py-8 items-center  bg-green-200  justify-center'>
-        <div className=' md:pl-6 md:w-3/4 p-0  m-4'>
+        <div className='flex md:flex-row flex-col md:p-20 md:pl-4 p-1 py-8 items-center  bg-green-200  justify-center '>
+        <div className=' md:pl-6 md:w-3/4 xl:w-1/4 p-0  m-4'>
            
             <h1 className='text-5xl mb-4 font-medium '>Book your rooms</h1>
             <p className='md:w-full w-full mb-8'>Beach volleyball is ouy visitors favourite sport, highly enjoyable for everyone young or old. Just gather your team on the beach and</p>

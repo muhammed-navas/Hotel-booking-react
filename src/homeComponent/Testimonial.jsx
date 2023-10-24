@@ -20,7 +20,7 @@ function Testimonial() {
       position: "CEO at Facebook",
       image: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png",
     },
-    // Add more testimonials here
+   
   ];
 
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
@@ -52,12 +52,12 @@ function Testimonial() {
   };
 
   return (
-    <div className="relative md:mb-10">
+    <div className="relative md:mb-10 ">
       <section className="bg-white dark:bg-gray-900 ">
         <div className="max-w-screen-xl px-4 py-10 mx-auto text-center lg:py-16 lg:px-6">
           <figure
             className={`max-w-screen-md mx-auto relative transition-opacity ${animation} ${
-              visible ? 'opacity-100' : 'opacity-0'
+              visible ? "opacity-100" : "opacity-0"
             }`}
           >
             <svg
@@ -90,7 +90,7 @@ function Testimonial() {
               </div>
             </figcaption>
           </figure>
-          <div className="absolute md:top-1/2 bottom-0  left-[65%] md:left-20">
+          <div className="absolute 2xl:left-[25%] md:top-1/2 bottom-0  left-[65%] md:left-20">
             <button
               className="text-gray-400 dark:text-gray-600  border-black border-2 rounded-full hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none"
               onClick={prevTestimonial}
@@ -111,7 +111,7 @@ function Testimonial() {
               </svg>
             </button>
           </div>
-          <div className="absolute md:top-1/2 bottom-0  right-[9%] md:right-20">
+          <div className="absolute md:top-1/2 bottom-0  2xl:right-[25%] right-[9%] md:right-20">
             <button
               className="text-gray-400 dark:text-gray-600  border-black  border-2  rounded-full hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none"
               onClick={nextTestimonial}
