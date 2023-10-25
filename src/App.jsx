@@ -7,7 +7,7 @@ import ActivitiesPage from "./page/ActivitiesPage";
 import ContactPage from "./page/ContactPage";
 import RoomPage from "./page/RoomPage";
 import "./App.css";
-import Sample from "./sampleF";
+// import Sample from "./sampleF";
 
 function App() {
   return (
