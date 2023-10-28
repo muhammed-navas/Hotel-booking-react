@@ -1,30 +1,19 @@
 import React, { useState } from "react";
-
 import { Link } from "react-router-dom";
-
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [menu, setMenu] = useState("hidden");
 
   function clickHandle() {
-    if (menu === "hidden") {
-      setMenu("h-screen ");
-    } else {
-      setMenu("hidden");
-    }
     setIsOpen(!isOpen);
   }
 
+  const menuClass = isOpen ? "block" : "hidden";
+
   return (
     <nav className="p-4 md:p-5 shadow-sm">
-      <div className="">
-        <div className="">
-          <div className="flex items-center  justify-between mx-w-6xl mx-auto ">
-            {/* <Link to="/">
-              <img src={logo} className="h-16 mr-16" alt="cloud-whize logo" />
-            </Link>
-          </div> */}
+      <div className="mx-w-6xl mx-auto">
+        <div className="flex items-center justify-between">
           <h1 className="uppercase text-2xl w-full md:ml-16">hotel website</h1>
           <div className="md:hidden">
             <button
@@ -38,42 +27,53 @@ const Navbar = () => {
                 stroke="black"
                 className="h-6 w-6"
               >
-                {isOpen ? (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                ) : (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                )}
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d={
+                    isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
+                  }
+                />
               </svg>
             </button>
           </div>
-          <div 
-            className={`${menu} md:inline-flex  top-[63px] md:mt-0 md:bg-white w-[20rem] md:w-full left-0 md:left-0 bg-white absolute md:static md:flex-row flex-col flex space-x-4 gap-8 animation-element animate  z-[9] text-red-900 `}
+          <div
+            className={`md:flex ${menuClass} md:inline-flex md:justify-between top-16 md:mt-0 md:bg-white w-full md:w-20rem h-screen md:h-0 bg-white absolute md:static md:flex-row flex-col flex space-x-4 gap-8  animation-element animate z-10 text-red-900`}
           >
-            <Link to="/" className="ml-4 md:ml-0 mt-4 md:mt-0 font-lato text-lg hover:underline font-medium">
+            <Link
+              to="/"
+              className="md:ml-0 mt-4 md:mt-0 font-lato text-lg hover:underline font-medium"
+            >
               Home
             </Link>
-            <Link to="/rooms" className="hover:underline font-lato text-lg font-medium">
+            <Link
+              to="/rooms"
+              className="font-lato text-lg hover:underline font-medium"
+            >
               Rooms
             </Link>
-            <Link to="/activities" className="hover:underline font-lato text-lg font-medium">Activities</Link>
-            <Link to="/contact" className="hover:underline font-lato text-lg font-medium">
-              Contact 
+            <Link
+              to="/activities"
+              className="font-lato text-lg hover:underline font-medium"
+            >
+              Activities
             </Link>
-            
-         
+            <Link
+              to="/deluxe"
+              className="font-lato text-lg hover:underline font-medium"
+            >
+              Deluxe
+            </Link>
+
+            <Link
+              to="/contact"
+              className="font-lato text-lg hover:underline font-medium"
+            >
+              Contact
+            </Link>
           </div>
         </div>
-      </div>
       </div>
     </nav>
   );
